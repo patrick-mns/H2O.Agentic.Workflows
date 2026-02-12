@@ -6,6 +6,19 @@ Repositório de teste para [GitHub Agentic Workflows (gh-aw)](https://github.com
 
 GitHub Agentic Workflows permite escrever workflows automatizados em linguagem natural (Markdown) que rodam como GitHub Actions com agentes de IA (Copilot, Claude ou Codex).
 
+## Uso
+
+```python
+from example import hello_world, soma
+
+# Exemplo básico
+print(hello_world())  # Output: Hello, World!
+
+# Soma de números
+resultado = soma(5, 3)
+print(resultado)  # Output: 8
+```
+
 ## Setup
 
 ```bash
